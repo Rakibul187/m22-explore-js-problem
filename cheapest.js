@@ -45,6 +45,21 @@ const phones = [
 // console.log(mySelection2)
 
 //------------find the highest camera phone -----------------
+// function highestcamera(phones) {
+//     let highest = phones[0]
+//     for (let i = 0; i < phones.length; i++) {
+//         const phone = phones[i];
+//         if (phone.camera > highest.camera) {
+//             highest = phone
+//         }
+//     }
+//     return highest
+// }
+// const mySelection3 = highestcamera(phones);
+// console.log('here is the highest camera phone ', mySelection3)
+
+
+
 function highestcamera(phones) {
     let highest = phones[0]
     for (let i = 0; i < phones.length; i++) {
